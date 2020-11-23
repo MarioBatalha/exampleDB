@@ -12,4 +12,4 @@ app.use('/user', (req, res) => {
     res.send({ users })
 })
 
-app.listen(3333);
+app.listen(process.env.PORT || 3333);
